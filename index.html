@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO: Primary meta tags -->
+  <title>Calcak – Free Online Calculator | Mortgage, BMI, Tax & More</title>
+  <meta name="description" content="Free online calculators for mortgage, BMI, tax, percentage, and more. Fast, accurate, mobile-friendly. Trusted by millions of Americans." />
+  <meta name="keywords" content="online calculator, mortgage calculator, BMI calculator, tax calculator, percentage calculator" />
+  <link rel="canonical" href="https://www.calcak.com/" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Calcak – Free Online Calculators" />
+  <meta property="og:description" content="Fast, accurate calculators for everyday American needs." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.calcak.com/" />
+  <meta property="og:image" content="https://www.calcak.com/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Calcak – Free Online Calculators" />
+  <meta name="twitter:description" content="Fast, accurate calculators for everyday American needs." />
+  <meta name="twitter:image" content="https://www.calcak.com/og-image.png" />
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="alternate icon" href="favicon.ico" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+  <!-- SEO: Structured data -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "Calcak",
+      "url": "https://www.calcak.com/",
+      "description": "Free online calculators for mortgage, BMI, tax, percentage, tip, loan, and age.",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How do I calculate my monthly mortgage payment?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Enter your home price, down payment, loan term, and interest rate into our free mortgage calculator to get your estimated monthly payment instantly." }
+        },
+        {
+          "@type": "Question",
+          "name": "What is a healthy BMI range?",
+          "acceptedAnswer": { "@type": "Answer", "text": "According to CDC guidelines, a BMI between 18.5 and 24.9 is considered healthy for adults. Use our BMI calculator to find yours." }
+        },
+        {
+          "@type": "Question",
+          "name": "How much federal income tax will I owe in 2025?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Use our free 2025 tax calculator. Enter your gross income, filing status, and deductions to get an estimate based on current IRS tax brackets." }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the standard tip percentage in the US?",
+          "acceptedAnswer": { "@type": "Answer", "text": "The standard tip in the US is 18–20% for restaurant service. Use our tip calculator to split the bill among any number of people." }
+        }
+      ]
+    }
+  ]
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preload" href="seo-config.json" as="fetch" crossorigin />
+  <!-- Google Analytics 4 — replace G-XXXXXXXXXX with your Measurement ID -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX', { send_page_view: false });
+  </script>
+</head>
+<body>
+
+  <!-- ===== HEADER / NAV ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="/" class="logo" aria-label="Calcak Home">
+        <span class="logo-icon">⊞</span>
+        <span class="logo-text">Calcak</span>
+      </a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="#standard" class="nav-calc active" data-calc="standard">Standard</a></li>
+          <li class="has-dropdown">
+            <a href="#" aria-haspopup="true" aria-expanded="false">Financial</a>
+            <ul class="dropdown" role="menu">
+              <li><a href="#mortgage" class="nav-calc" data-calc="mortgage" role="menuitem">Mortgage</a></li>
+              <li><a href="#loan"     class="nav-calc" data-calc="loan"     role="menuitem">Loan</a></li>
+              <li><a href="#tax"      class="nav-calc" data-calc="tax"      role="menuitem">Tax</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#" aria-haspopup="true" aria-expanded="false">Health</a>
+            <ul class="dropdown" role="menu">
+              <li><a href="#bmi" class="nav-calc" data-calc="bmi" role="menuitem">BMI</a></li>
+              <li><a href="#age" class="nav-calc" data-calc="age" role="menuitem">Age</a></li>
+            </ul>
+          </li>
+          <li class="has-dropdown">
+            <a href="#" aria-haspopup="true" aria-expanded="false">Math</a>
+            <ul class="dropdown" role="menu">
+              <li><a href="#percentage" class="nav-calc" data-calc="percentage" role="menuitem">Percentage</a></li>
+              <li><a href="#tip"        class="nav-calc" data-calc="tip"        role="menuitem">Tip</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== AD BANNER TOP (728x90 leaderboard) ===== -->
+  <!-- AD-SLOT: top-leaderboard | Size: 728x90 desktop / 320x50 mobile -->
+  <div class="ad-banner ad-top" role="complementary" aria-label="Advertisement">
+    <div class="ad-placeholder">
+      <span>Advertisement</span>
+      <!-- inject: Google AdSense / programmatic ad tag here -->
+    </div>
+  </div>
+
+  <!-- ===== MAIN LAYOUT ===== -->
+  <main class="main-layout container" id="main-content">
+
+    <!-- LEFT SIDEBAR: Category Nav + Ad -->
+    <aside class="sidebar-left" aria-label="Calculator categories">
+      <div class="sidebar-section">
+        <h2 class="sidebar-title">Categories</h2>
+        <ul class="category-list">
+          <li><a href="#" class="cat-item active" data-calc="standard">
+            <span class="cat-icon">🔢</span> Standard
+          </a></li>
+          <li><a href="#" class="cat-item" data-calc="mortgage">
+            <span class="cat-icon">🏠</span> Mortgage
+          </a></li>
+          <li><a href="#" class="cat-item" data-calc="bmi">
+            <span class="cat-icon">❤️</span> BMI
+          </a></li>
+          <li><a href="#" class="cat-item" data-calc="tax">
+            <span class="cat-icon">💰</span> Tax
+          </a></li>
+          <li><a href="#" class="cat-item" data-calc="percentage">
+            <span class="cat-icon">%</span> Percentage
+          </a></li>
+          <li><a href="#" class="cat-item" data-calc="tip">
+            <span class="cat-icon">🍽️</span> Tip
+          </a></li>
+          <li><a href="#" class="cat-item" data-calc="loan">
+            <span class="cat-icon">🏦</span> Loan
+          </a></li>
+          <li><a href="#" class="cat-item" data-calc="age">
+            <span class="cat-icon">🎂</span> Age
+          </a></li>
+        </ul>
+      </div>
+      <!-- AD-SLOT: sidebar-left | Size: 160x600 -->
+      <div class="ad-sidebar ad-placeholder" role="complementary" aria-label="Advertisement">
+        <span>Ad 160×600</span>
+      </div>
+    </aside>
+
+    <!-- CENTER: Main Calculator + Results -->
+    <section class="calc-main" aria-label="Calculator">
+
+      <!-- Breadcrumb for SEO -->
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <ol>
+          <li><a href="/">Home</a></li>
+          <li class="breadcrumb-current" aria-current="page">Standard Calculator</li>
+        </ol>
+      </nav>
+
+      <!-- Calculator Container: dynamically populated by CalcRouter -->
+      <div id="calc-container" role="region" aria-live="polite" aria-label="Calculator">
+        <!-- CalcRouter.init() renders the active calculator here -->
+      </div>
+
+      <!-- SEO Content Block -->
+      <!-- SEO-SLOT: dynamic keyword content injected here per calculator type -->
+      <div class="seo-content-block">
+        <h2>About the Standard Calculator</h2>
+        <p>Our free standard calculator handles everyday arithmetic — addition, subtraction, multiplication, and division — with instant results. No sign-up required.</p>
+        <p>Looking for more? Try our <a href="#">mortgage calculator</a>, <a href="#">BMI calculator</a>, or <a href="#">tip calculator</a> for specialized needs.</p>
+      </div>
+    </section>
+
+    <!-- RIGHT SIDEBAR: Trending + Ad -->
+    <aside class="sidebar-right" aria-label="Trending topics and ads">
+
+      <!-- TRENDING / DYNAMIC CONTENT BLOCK -->
+      <!-- DYNAMIC-SLOT: populated via JS fetch from /api/trending or CMS -->
+      <div class="trending-block">
+        <h2 class="sidebar-title">
+          🔥 Trending Today
+          <span class="trending-badge">Live</span>
+        </h2>
+        <ul class="trending-list" id="trending-list">
+          <li class="trending-item">
+            <a href="#">Mortgage rates hit 6.8% — recalculate your payment</a>
+            <span class="trending-tag">Housing</span>
+          </li>
+          <li class="trending-item">
+            <a href="#">2025 tax brackets updated — check your refund</a>
+            <span class="trending-tag">Tax</span>
+          </li>
+          <li class="trending-item">
+            <a href="#">Average US tip rate rises to 20% — use our tip calc</a>
+            <span class="trending-tag">Lifestyle</span>
+          </li>
+          <li class="trending-item">
+            <a href="#">Gas price calculator: how much is your commute costing?</a>
+            <span class="trending-tag">Auto</span>
+          </li>
+          <li class="trending-item">
+            <a href="#">Student loan forgiveness — recalculate your balance</a>
+            <span class="trending-tag">Education</span>
+          </li>
+        </ul>
+        <!-- DYNAMIC-SLOT: refresh interval 24h, source: trending API or editorial CMS -->
+      </div>
+
+      <!-- AD-SLOT: sidebar-right | Size: 300x250 medium rectangle -->
+      <div class="ad-sidebar ad-300x250 ad-placeholder" role="complementary" aria-label="Advertisement">
+        <span>Ad 300×250</span>
+      </div>
+
+      <!-- Today's Tip Block -->
+      <!-- DYNAMIC-SLOT: daily tip, rotated via JS or CMS -->
+      <div class="tip-block">
+        <h3>💡 Today's Tip</h3>
+        <p id="daily-tip">Did you know? Paying an extra $100/month on a $300k mortgage can save you over $30,000 in interest.</p>
+        <a href="#mortgage" class="tip-cta nav-calc" data-calc="mortgage">Try Mortgage Calculator →</a>
+      </div>
+
+      <!-- AD-SLOT: sidebar-right-2 | Size: 300x600 half page -->
+      <div class="ad-sidebar ad-300x600 ad-placeholder" role="complementary" aria-label="Advertisement">
+        <span>Ad 300×600</span>
+      </div>
+
+    </aside>
+  </main>
+
+  <!-- ===== POPULAR CALCULATORS GRID ===== -->
+  <section class="popular-section container" aria-label="Popular calculators">
+    <h2 class="section-title">Popular Calculators</h2>
+    <div class="popular-grid">
+      <a href="#mortgage" class="popular-card" data-calc="mortgage">
+        <span class="popular-icon">🏠</span>
+        <span class="popular-name">Mortgage</span>
+        <span class="popular-desc">Monthly payment estimator</span>
+      </a>
+      <a href="#bmi" class="popular-card" data-calc="bmi">
+        <span class="popular-icon">❤️</span>
+        <span class="popular-name">BMI</span>
+        <span class="popular-desc">Body mass index</span>
+      </a>
+      <a href="#tax" class="popular-card" data-calc="tax">
+        <span class="popular-icon">💰</span>
+        <span class="popular-name">Tax</span>
+        <span class="popular-desc">Federal & state tax</span>
+      </a>
+      <a href="#tip" class="popular-card" data-calc="tip">
+        <span class="popular-icon">🍽️</span>
+        <span class="popular-name">Tip</span>
+        <span class="popular-desc">Split the bill easily</span>
+      </a>
+      <a href="#percentage" class="popular-card" data-calc="percentage">
+        <span class="popular-icon">%</span>
+        <span class="popular-name">Percentage</span>
+        <span class="popular-desc">Discounts & increases</span>
+      </a>
+      <a href="#loan" class="popular-card" data-calc="loan">
+        <span class="popular-icon">🏦</span>
+        <span class="popular-name">Loan</span>
+        <span class="popular-desc">APR & monthly cost</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== AD BANNER BOTTOM (728x90) ===== -->
+  <!-- AD-SLOT: bottom-leaderboard | Size: 728x90 desktop / 320x50 mobile -->
+  <div class="ad-banner ad-bottom ad-placeholder" role="complementary" aria-label="Advertisement">
+    <span>Advertisement 728×90</span>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">Calcak</span>
+        <p>Free, fast, and accurate calculators for everyday American needs.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h4>Calculators</h4>
+        <ul>
+          <li><a href="#mortgage"   class="nav-calc" data-calc="mortgage">Mortgage</a></li>
+          <li><a href="#bmi"        class="nav-calc" data-calc="bmi">BMI</a></li>
+          <li><a href="#tax"        class="nav-calc" data-calc="tax">Tax</a></li>
+          <li><a href="#tip"        class="nav-calc" data-calc="tip">Tip</a></li>
+          <li><a href="#loan"       class="nav-calc" data-calc="loan">Loan</a></li>
+          <li><a href="#percentage" class="nav-calc" data-calc="percentage">Percentage</a></li>
+          <li><a href="#age"        class="nav-calc" data-calc="age">Age</a></li>
+        </ul>
+      </nav>
+      <nav class="footer-nav" aria-label="Company links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Advertise</a></li>
+        </ul>
+      </nav>
+      <div class="footer-seo">
+        <!-- SEO-SLOT: footer keyword links, updated monthly -->
+        <h4>Trending Searches</h4>
+        <ul class="footer-keywords" id="footer-keywords">
+          <li><a href="#">mortgage calculator 2025</a></li>
+          <li><a href="#">tax refund estimator</a></li>
+          <li><a href="#">BMI calculator adults</a></li>
+          <li><a href="#">tip calculator split</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-disclaimer">
+      <div class="container">
+        <p><strong>Disclaimer:</strong> All calculators on Calcak are provided for general informational and estimation purposes only. Results do not constitute financial, legal, tax, investment, or medical advice. Calcak makes no representations or warranties regarding the accuracy or completeness of any results. Use of this site is at your own risk. Calcak is not liable for any losses, damages, or decisions made based on information obtained from this website. Please consult a licensed professional before making any financial, legal, health, or tax-related decisions.</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Calcak. All rights reserved. | <a href="disclaimer.html">Disclaimer</a> | <a href="terms.html">Terms of Use</a> | <a href="privacy.html">Privacy Policy</a> | Results are estimates only — not professional advice.</p>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="back-to-top" aria-label="Back to top" hidden>↑</button>
+
+  <script src="calculators.js"></script>
+  <script src="trending-data.js"></script>
+  <script src="seo-engine.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
