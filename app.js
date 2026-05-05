@@ -243,7 +243,7 @@ class Calculator {
       'A 1% increase in your 401(k) contribution today can add $50k+ to your retirement.',
       'Refinancing at a 0.5% lower rate on a $400k mortgage saves ~$100/month.',
       'A BMI between 18.5 and 24.9 is considered healthy by CDC guidelines.',
-      'The 2025 standard deduction is $15,000 for single filers — check your tax estimate.',
+      'The 2026 standard deduction is $15,000 for single filers — check your tax estimate.',
       'Paying off a $20k car loan 12 months early can save $800+ in interest.',
       'Use the percentage calculator to quickly find discounts while shopping.',
     ];
@@ -326,7 +326,7 @@ function initCategoryNav() {
 function initFooterKeywords() {
   // DYNAMIC-SLOT: inject trending search terms from SEO API
   const keywords = [
-    { text: 'mortgage calculator 2025', href: '#' },
+    { text: 'mortgage calculator 2026', href: '#' },
     { text: 'tax refund estimator', href: '#' },
     { text: 'BMI calculator adults', href: '#' },
     { text: 'tip calculator split', href: '#' },

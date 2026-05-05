@@ -137,7 +137,7 @@ const CALC_REGISTRY = {
       { id: 'income',        label: 'Annual Gross Income ($)', type: 'number', placeholder: '75000', min: 0 },
       { id: 'filing_status', label: 'Filing Status',           type: 'select', options: ['Single', 'Married Filing Jointly', 'Married Filing Separately', 'Head of Household'] },
       { id: 'deductions',    label: 'Deductions ($)',           type: 'number', placeholder: '15000', min: 0,
-        hint: '2025 standard deduction: Single $15,000 · MFJ $30,000 · HoH $22,500' },
+        hint: '2026 standard deduction: Single $15,000 · MFJ $30,000 · HoH $22,500' },
     ],
     compute(inputs) {
       const brackets = {
@@ -165,7 +165,7 @@ const CALC_REGISTRY = {
           <div class="result-item"><span class="result-label">Marginal Rate</span><span class="result-value">${r.marginalRate}%</span></div>
           <div class="result-item"><span class="result-label">After-Tax Income</span><span class="result-value">$${fmt(r.afterTax)}</span></div>
         </div>
-        <p class="result-note">Estimate only. Based on 2025 IRS federal brackets. Does not include state tax, FICA, or credits.</p>`;
+        <p class="result-note">Estimate only. Based on 2026 IRS federal brackets. Does not include state tax, FICA, or credits.</p>`;
     },
   },
 
