@@ -13,7 +13,7 @@
       ]
     },
     "mortgage": {
-      "title": "Mortgage Calculator 2025 – Monthly Payment Estimator | Calcak",
+      "title": "Mortgage Calculator 2026 – Monthly Payment Estimator | Calcak",
       "description": "Calculate your monthly mortgage payment, total interest, and amortization. Free, fast, accurate.",
       "h2": "About the Mortgage Calculator",
       "body": "Estimate your monthly mortgage payment based on loan amount, interest rate, and term. Includes principal, interest, and optional PMI.",
@@ -53,10 +53,10 @@
       ]
     },
     "tax": {
-      "title": "Income Tax Calculator 2025 – Federal Estimate | Calcak",
-      "description": "Estimate your 2025 federal income tax using current US tax brackets. Fast and free.",
+      "title": "Income Tax Calculator 2026 – Federal Estimate | Calcak",
+      "description": "Estimate your 2026 federal income tax using current US tax brackets. Fast and free.",
       "h2": "About the Tax Calculator",
-      "body": "Estimates federal income tax using 2025 IRS tax brackets. Does not include state taxes, deductions, or credits beyond the standard deduction.",
+      "body": "Estimates federal income tax using 2026 IRS tax brackets. Does not include state taxes, deductions, or credits beyond the standard deduction.",
       "links": [
         { "text": "mortgage calculator", "calc": "mortgage" },
         { "text": "percentage calculator", "calc": "percentage" }
@@ -89,14 +89,14 @@
       "active_months": [1, 2, 3, 4],
       "targets": {
         "tax": {
-          "title": "Tax Calculator 2025 – File Before April 15 | Calcak",
-          "description": "Tax season is here! Estimate your 2025 federal income tax before the April 15 deadline. Free and instant.",
-          "h2": "2025 Tax Season Calculator",
+          "title": "Tax Calculator 2026 – File Before April 15 | Calcak",
+          "description": "Tax season is here! Estimate your 2026 federal income tax before the April 15 deadline. Free and instant.",
+          "h2": "2026 Tax Season Calculator",
           "body": "Tax season runs January through April 15. Use our free federal tax estimator to plan your filing, check your refund, and avoid surprises at the deadline."
         },
         "mortgage": {
-          "title": "Mortgage Interest Deduction Calculator 2025 | Calcak",
-          "description": "Calculate your mortgage payment and interest deduction for tax season 2025. Free and accurate."
+          "title": "Mortgage Interest Deduction Calculator 2026 | Calcak",
+          "description": "Calculate your mortgage payment and interest deduction for tax season 2026. Free and accurate."
         }
       }
     },
@@ -117,8 +117,8 @@
       "active_months": [1],
       "targets": {
         "loan": {
-          "title": "New Year Loan Calculator 2025 – Plan Your Finances | Calcak",
-          "description": "Start 2025 right. Calculate loan payments and plan your debt payoff strategy with our free loan calculator."
+          "title": "New Year Loan Calculator 2026 – Plan Your Finances | Calcak",
+          "description": "Start 2026 right. Calculate loan payments and plan your debt payoff strategy with our free loan calculator."
         }
       }
     },
@@ -127,13 +127,13 @@
       "active_months": [8, 9],
       "targets": {
         "loan": {
-          "title": "Student Loan Calculator – Back to School 2025 | Calcak",
+          "title": "Student Loan Calculator – Back to School 2026 | Calcak",
           "description": "Heading back to school? Calculate your student loan payments and total interest. Free and instant.",
           "h2": "Student Loan Calculator",
           "body": "Planning for college costs? Enter your loan amount, interest rate, and term to see your monthly payment and total interest over the life of the loan."
         },
         "percentage": {
-          "title": "Back to School Discount Calculator 2025 | Calcak",
+          "title": "Back to School Discount Calculator 2026 | Calcak",
           "description": "Calculate back-to-school discounts and savings instantly with our free percentage calculator."
         }
       }
