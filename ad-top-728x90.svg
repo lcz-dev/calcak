@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="728" height="90" viewBox="0 0 728 90">
+  <rect width="728" height="90" fill="#0F172A"/>
+  <rect x="0" y="0" width="3" height="90" fill="#2563EB"/>
+  <rect x="3" y="0" width="725" height="1" fill="#1E293B"/>
+  <rect x="3" y="89" width="725" height="1" fill="#1E293B"/>
+  <!-- Subtle dot grid -->
+  <circle cx="480" cy="20" r="1.5" fill="#1E293B"/>
+  <circle cx="500" cy="20" r="1.5" fill="#1E293B"/>
+  <circle cx="520" cy="20" r="1.5" fill="#1E293B"/>
+  <circle cx="540" cy="20" r="1.5" fill="#1E293B"/>
+  <circle cx="480" cy="40" r="1.5" fill="#1E293B"/>
+  <circle cx="500" cy="40" r="1.5" fill="#1E293B"/>
+  <circle cx="520" cy="40" r="1.5" fill="#1E293B"/>
+  <circle cx="540" cy="40" r="1.5" fill="#1E293B"/>
+  <circle cx="480" cy="60" r="1.5" fill="#1E293B"/>
+  <circle cx="500" cy="60" r="1.5" fill="#1E293B"/>
+  <circle cx="520" cy="60" r="1.5" fill="#1E293B"/>
+  <circle cx="540" cy="60" r="1.5" fill="#1E293B"/>
+  <circle cx="480" cy="70" r="1.5" fill="#1E293B"/>
+  <circle cx="500" cy="70" r="1.5" fill="#1E293B"/>
+  <circle cx="520" cy="70" r="1.5" fill="#1E293B"/>
+  <circle cx="540" cy="70" r="1.5" fill="#1E293B"/>
+  <!-- Brand -->
+  <text x="24" y="36" font-family="Inter,-apple-system,sans-serif" font-size="11" font-weight="500" fill="#2563EB" letter-spacing="3">TRAVEL GUIDE</text>
+  <text x="24" y="62" font-family="Inter,-apple-system,sans-serif" font-size="26" font-weight="700" fill="#FFFFFF" letter-spacing="1">Shanghai Bound</text>
+  <!-- Tagline -->
+  <text x="310" y="52" font-family="Inter,-apple-system,sans-serif" font-size="13" fill="#64748B">Explore the city like a local</text>
+  <!-- CTA button -->
+  <rect x="582" y="27" width="122" height="36" rx="6" fill="#2563EB"/>
+  <text x="643" y="50" font-family="Inter,-apple-system,sans-serif" font-size="13" font-weight="600" fill="#FFFFFF" text-anchor="middle">Explore Now →</text>
+</svg>
